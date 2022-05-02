@@ -1,0 +1,185 @@
+body {
+	
+	background-image: url('webbg.png');
+	background-repeat: repeat;
+
+	color: #FFFFFF;
+
+	font-family: 'open sans', sans-serif;
+}
+	
+
+header 	{
+	text-align: center;
+	vertical-align: center;
+	font-family: montserrat;
+
+	padding-bottom: 40px;
+}
+
+
+h1 	{
+	font-variant: small-caps;
+	text-shadow: 5px 3px 3px black;
+}
+
+
+header p {
+	font-size: 100%;
+	letter-spacing: 1px;
+}
+
+
+nav {
+	padding-bottom: 15px;
+	padding-top: 15px;
+
+	-webkit-border-radius: 30px;
+	border: 4px solid white;
+	animation-name: navcolour;
+	animation-duration: 4s;
+	animation-timing-function: ease;
+}
+
+@keyframes navcolour {
+	0% {background-color: white}
+	100% {background-color: none}
+}
+	
+
+
+
+#buttons td {
+	width: 200px;;
+	text-align: center;
+}
+
+
+a:link {
+	color: white;
+	text-decoration: none;
+
+}
+
+
+a:visited {
+	color: white;
+}
+	
+
+
+nav a:hover {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+	color: white;
+	font-weight: 700;
+	border-bottom: 4px solid orange;
+	border-top: 4px solid orange;
+	/*border-radius: 20px;*/
+	font-size: 115%;
+	transition: font-size 0.1s ease-in;
+}
+
+
+/* .resources h3 {
+	text-align: left;
+}
+
+
+.resources a {
+	background-color: white;
+	font-size: medium;
+	font-style: bold;	
+}
+
+.resources ul {
+	list-style: square inside none;
+	
+}
+
+.resources li {
+	text-align: left;
+	width: 300px;
+}
+
+.resources a:hover{
+	background-color: black;
+	color: white;
+}
+
+
+aside {
+	float: right;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	border-left: 2px solid white;
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+} */
+
+
+article {
+	max-width: 100%;
+}
+
+
+.skills {
+	width: 50%;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.middle {
+	width: 100%;
+	text-align: center;
+}
+
+
+
+.skills img {
+	height: 50px;
+	image-align: left;
+}
+
+.skills td {
+	width: 150px
+}
+
+
+.skills tr {
+	height: 75px;
+	vertical-align: center;
+}
+
+
+.tblhead {
+	text-transform: capitalize;
+}
+
+
+section {
+	max-width: 50%;
+}
+
+
+footer 	table 	{
+	margin-right: auto;
+	margin-left: auto;
+	background-color: none;
+}
+
+
+.footer h3 	{
+	text-align: center;
+	font-family: montserrat;
+	color: #FFFFFF;
+}
+	
+	
+.footer a:hover {
+	position: relative;
+	bottom: 10px;
+}
